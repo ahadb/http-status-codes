@@ -9,14 +9,18 @@ Example::
     >>> 428  Precondition Required
     >>> 429  Too Many Requests
     >>> 400  Bad Request
+    >>> ...
     >>> codes[200]
     >>> codes[304]
     >>> codes[404]
     >>> codes[502]
-    >>> does_status_code_exist(419)
-    >>>
+    >>> ...
+    >>> does_status_code_exist(404)
+    >>> Yes, the status code 404 exists 😀
+    >>> ...
+    >>> does_status_code_exist(150)
+    >>> ...
 """
-
 
 codes = {
     100: "Continue",
